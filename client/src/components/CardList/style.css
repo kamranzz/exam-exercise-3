@@ -1,0 +1,55 @@
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f9f9ff;
+    overflow: hidden;
+}
+
+.no-border-card {
+    border: none;
+    background-color: #f9f9ff;
+    transition: .3s;
+}
+
+.blog-area {
+    background-color: #f9f9ff;
+}
+
+ .country {
+    background-color: #000;
+    color: #fff;
+    font-weight: 100;
+    padding: 2px 15px;
+    width: 115px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-fluid-card {
+    width: 500px;
+    height: 300px;
+    transition: all 0.3s ease 0s;
+}
+
+img {
+    width: 100%;
+    transition: all 0.3s ease 0s;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.no-border-card:hover {
+    color: #000;
+}
+.search{
+    margin-bottom:50px ;
+}
